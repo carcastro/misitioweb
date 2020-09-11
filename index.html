@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+        <title>Carlos | Castro</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="El sitio web personal de Carlos, un desarrollador con sede en Argentina." />
+        <meta name="keywords" content="Carlos, Castro, web design, web development, graphic design, websites, graphics, illustration, freelance, developer" />
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/header.css">
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    </head>
+    <body>
+      <header class="header" id="header">
+        <img class="logo" src="pictures/logo.jpg">
+        <div id="myNav" class="overlay">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <div class="overlay-content">
+            <a href="#about" onclick="closeNav()"> Quién soy </a>
+            <a href="#skills" onclick="closeNav()"> Mis habilidades </a>
+            <a href="#trailer" onclick="closeNav()"> Video </a>
+            <a href="#contact" onclick="closeNav()"> Ponerse en contacto </a>
+          </div>
+        </div>
+        <span class="menu" onclick="openNav()">&#9776;</span>
+        <h1 class="main-title"> Carlos Castro <br> 
+        <span class="thin"> // Desarrollador Full Stack</span> </h1>
+        </header>
+      <div class="about" id="about">
+        <img class="illustrations" id="aboutImage" src="pictures/aboutmeimg.svg" alt="Carlos">
+        <h1>Quién soy?</h1> <br>
+        <div class="aboutText">
+          <p>Soy Carlos, un desarrollador que vive en Argentina, Siempre tuve una pasión por la tecnología y, comencé a descubrir el mundo del desarrollo web. Desde entonces, aprendo y practico todos los días, soy responsable y comprometido con mis actividades. Soy constante en mi desarrollo personal, detallista, mi fuerte es investigar para aprender más todos los días. </p>
+        </div>
+      </div>
+      <div class="skills" id="skills">
+        <img class="illustrations" id="skillsImage" src="pictures/skillsimg.svg" alt="Mis habilidades">
+          <h1>Mis habilidades </h1>
+          <div class="skillsCards">
+          <div class="skillsContainer">
+            <h4 class="cardheading">HTML y CSS</h4>
+            <p class="description">Comencé a aprender HTML5 y CSS3, La práctica da forma a Mis habilidades.</p>
+          </div>
+          <div class="skillsContainer">
+            <h4 class="cardheading">JavaScript y ReactJS</h4>
+            <p class="description">Comencé con JavaScript y siempre practico Mis habilidades Ahora estoy aprendiendo ReactJS, Flutter.</p>
+          </div>
+          <div class="skillsContainer">
+            <h4 class="cardheading">C # y .NET</h4>
+            <p class="description">comencé a aprender C # y .NET, Conozco Todo los conceptos .NET Core y apis rest y practico haciendo pequeñas aplicaciones personales.</p>
+          </div>
+        </div>
+        </div>
+        <div class="video-trailer">
+          <video id="trailer" class="trailer" controls>
+            <source src="pictures/myvideo.mp4" type="video/mp4">
+            <h3>Intente abrir en un navegador moderno </h3>
+          </video>
+      </div>
+      <div class="bottom">
+      <div class="contact" id="contact">
+        <h1>Ponerse en contacto</h1>
+        <img class="contactImage" src="pictures/contact.svg" alt="Ponerse en contacto">
+        <div class="contactText">
+          <h5> Si quieres contactar conmigo, no dudes en hacerlo. Me encantaria trabajar contigo!</h5> <br>
+          <a href="https://www.instagram.com/carloscastro_07/"><i class="fa fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/carlos-castro-ba2b47152/"><i class="fa fa-linkedin"></i></a>
+          <a href="#gmail"><i class="fa fa-envelope-o"></i></a>
+          <h5 id="gmail">Mail : <span class="mail">carcastro5522@gmail.com</span></h5> <br>  
+          <br>
+        </div>
+        </div>
+      <footer class="footer">
+      &copy;
+      <script type="text/javascript">
+        var today = new Date();
+        var year = today.getFullYear();
+        document.write(year);
+      </script>
+  
+      <p> Carlos Castro - Coder </p>
+      <br>
+      </footer>
+      </div>
+      
+      <script src="Scripts/animatedmenu.js"></script>
+      </body>
+  </html>
